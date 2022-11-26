@@ -1,0 +1,29 @@
+/* 폰트 */
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'MaplestoryOTFBold' !important;
+}
+/* 끝 */
+
+/* 문제 */
+.quiz_end {
+    display: none !important;
+    background-color: #4cdb98 !important;
+}
+
+.quiz_compile {
+    background-color: #db984c !important;
+
+}
+
+.quiz_wrong {
+    background-color: #db514c !important;
+    /*color : white !important;*/
+}
+/* 끝 */
