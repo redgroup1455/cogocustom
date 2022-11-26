@@ -1,0 +1,24 @@
+{
+    "name": "코고 커스텀",
+    "version": "6.6.6",
+    "description": "☢️코고를 커스텀 합니다☢️",
+    "offline_enabled": true,
+    "permissions": [
+      "http://cogo.co.kr/*", "cogo.co.kr/*", "tabs", "storage"
+    ],
+    "browser_action": {
+      "default_title": "코고 커스텀",
+      "default_popup": "views/popup.html"
+    },
+    "content_scripts": [
+      {
+        "run_at": "document_start",
+        "matches": [
+            "http://cogo.co.kr/*", 
+            "https://cogo.co.kr/*"
+        ],
+        "css": ["cogo.css"]
+      }
+    ],
+    "manifest_version": 2
+  }
