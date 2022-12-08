@@ -1,0 +1,114 @@
+/* 폰트 */
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'MaplestoryOTFBold' !important;
+}
+
+/* 끝 */
+
+/* 문제 */
+.quiz_end {
+    /*display: none !important;*/
+    background-color: #4cdb98 !important;
+}
+
+.quiz_compile {
+    background-color: #db984c !important;
+
+}
+
+.quiz_wrong {
+    background-color: #db514c !important;
+    /*color : white !important;*/
+}
+
+/* 끝 */
+
+.btn {
+    border: royalblue 0px !important;
+    padding: 10px !important;
+    background: rgb(225, 65, 65) !important;
+    align-items: center !important;
+    border-radius: 3px !important;
+    transition: background-color 0.2s ease-out 100ms !important;
+    color: white !important;
+}
+
+.btn:hover {
+    background-color: rgb(232, 84, 84) !important;
+}
+
+button[onclick="location.href='/mygroup/homework'"] {
+    display: none !important;
+}
+
+img[src="/static/img/logo.svg"] {
+    height: 50px !important;
+    width: auto !important;
+    content: url("https://cdn.discordapp.com/attachments/1048451362620461177/1048560736374370314/-1.png") !important;
+}
+
+:root {
+    --main: rgb(225, 65, 65) !important;
+    --main-hover: rgb(232, 84, 84) !important;
+}
+
+:root {
+    --swiper-theme-color: rgb(225, 65, 65) !important;
+}
+
+ul.tabs li.current {
+    background: rgb(225, 65, 65) !important;
+}
+
+ul.tabs li {
+    transition: background-color 0.6s ease-out 100ms !important;
+    background: #ECEFEE;
+}
+
+.sm-modal {
+    background: #2C2F33 !important;
+    color: #28eeb9 !important;
+    border-radius: 20px !important;
+    box-shadow: rgba(255, 255, 255, 0) 0px 0px 30px;
+}
+
+material-preloader {
+    width: 100%;
+    height: 100%;
+    content: url("https://cdn.discordapp.com/attachments/1043679952211546134/1050338254605525012/1.png") !important;
+    /*display: none !important;*/
+}
+
+.h_menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 9rem;
+    z-index: 1040;
+    background: #fff;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+:root {
+    --animate-duration: 9s !important;
+    --animate-delay: 9s !important;
+    --animate-repeat: 1;
+}
+
+material-preloader.loaded {
+    transition: .2s ease-out .6s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+button[onclick="location.href='/quiz/order'"] {
+    display: none !important;
+}
